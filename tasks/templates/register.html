@@ -1,0 +1,16 @@
+<!-- templates/register.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+<h2>Register</h2>
+<form action="{% url 'register_user' %}" method="post">
+    {% csrf_token %}
+    <!-- Add form fields for first name, last name, username, email, and password -->
+    <!-- ... -->
+
+    <button type="submit">Register</button>
+</form>
+{% endblock %}
