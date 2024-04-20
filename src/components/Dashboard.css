@@ -1,0 +1,45 @@
+.sidebar {
+    background-color: #5B3E31;
+    display: flex;
+    flex-direction: column; /* Display children in a column layout */
+    width:200px;
+    height: 589px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .ship-icon3 {
+    width: 30px; /* Adjust the width to make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Add some spacing between the icon and text */
+  }
+  
+  .navigation {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px; /* Add margin to separate logo from navigation */
+    flex-direction: column;
+  }
+  
+  .navigation li {
+    margin-bottom: 30px; /* Add margin between each button */
+  }
+  
+  .navigation li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px; /* Add padding to make each button clickable */
+    background-color: #874c3c; /* Background color for buttons */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .navigation li a:hover {
+    background-color: #6d392b; /* Change background color on hover */
+  }
+  
