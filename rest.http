@@ -1,0 +1,12 @@
+POST http://127.0.0.1:8000/api/register/
+Content-Type: application/json
+
+{
+        "first_name":"charles",
+        "last_name":"egano",
+        "username":"charlesegano",
+        "email":"eganocharlesreinerg@gmail.com",
+        "password":"292193414a.",
+        "confirm_password":"292193414a."
+
+      }
